@@ -17,9 +17,9 @@ npm install
 ### 3. Environment Setup
 Create a .env file in the project root directory:
 ```sh
-BASE_URL=https://www.saucedemo.com/v1/
-USERNAME=standard_user
-PASSWORD=secret_sauce
+BASE_URL=https://opensource-demo.orangehrmlive.com/web/index.php
+USERNAME=Admin
+PASSWORD=admin123
 ```
 ⚠️ Your .env file is ignored by Git via .gitignore for security reasons.
 

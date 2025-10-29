@@ -1,6 +1,6 @@
 export const loginPageLocators = {
-	usernameField: '#user-name',
-	passwordField: '#password',
-	loginButton: '#login-button',
-	dashboardHeader: '#header_container', // after login, “Products” page header
+	usernameField: 'input[placeholder="Username"]',
+	passwordField: 'input[placeholder="Password"]',
+	loginButton: 'button[type="submit"]',
+	dashboardHeader: '//h6[text()="Dashboard"]'
 }

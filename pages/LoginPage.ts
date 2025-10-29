@@ -14,7 +14,7 @@ export class LoginPage extends BasePage {
 
 	async gotoLoginPage() {
 		const baseUrl = process.env.BASE_URL!
-		await this.page.goto(`${baseUrl}`, { waitUntil: 'networkidle' })
+		await this.page.goto(`${baseUrl}/auth/login`, { waitUntil: 'networkidle' })
 		await this.page.waitForSelector(this.locators.usernameField, { state: 'visible' })
 	}
 
@@ -22,6 +22,7 @@ export class LoginPage extends BasePage {
 		await this.page.fill(this.locators.usernameField, username)
 		await this.page.fill(this.locators.passwordField, password)
 		await this.page.click(this.locators.loginButton)
+		await this.page.isVisible(this.locators.dashboardHeader)
 	}
 
 	async assertInventoryUrl(expectedUrl: string) {

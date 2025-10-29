@@ -9,5 +9,5 @@ test('Valid login should navigate to dashboard', async ({ page }) => {
 
 	await loginPage.gotoLoginPage()
 	await loginPage.login(process.env.USERNAME!, process.env.PASSWORD!)
-	await loginPage.assertInventoryUrl(`${process.env.BASE_URL}inventory.html`)
+	await loginPage.assertInventoryUrl(`${process.env.BASE_URL}/dashboard/index`)
 })
