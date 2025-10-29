@@ -1,0 +1,50 @@
+# =====================================
+# Node / TypeScript / Playwright Project
+# =====================================
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Build output
+dist/
+out/
+build/
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+videos/
+screenshots/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# Coverage reports
+coverage/
+lcov-report/
+node_modules
+report
+test-results
+
+# Temporary files
+*.tsbuildinfo
+.cache/
+
+# OS / system files
+Thumbs.db
