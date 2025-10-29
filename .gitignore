@@ -23,6 +23,7 @@ blob-report/
 trace.zip
 videos/
 screenshots/
+reports/
 
 # IDE / Editor specific
 .vscode/
@@ -38,9 +39,6 @@ logs/
 # Coverage reports
 coverage/
 lcov-report/
-node_modules
-report
-test-results
 
 # Temporary files
 *.tsbuildinfo
