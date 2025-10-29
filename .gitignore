@@ -23,7 +23,7 @@ blob-report/
 trace.zip
 videos/
 screenshots/
-report/
+reports/
 
 # IDE / Editor specific
 .vscode/
