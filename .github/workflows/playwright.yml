@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      BASE_URL: ${{ secrets.BASE_URL }}
-      USERNAME: ${{ secrets.USERNAME }}
-      PASSWORD: ${{ secrets.PASSWORD }}
+      BASE_URL: ${{ secrets.BASE_URL_HRM }}
+      USERNAME: ${{ secrets.USERNAME_HRM }}
+      PASSWORD: ${{ secrets.PASSWORD_HRM }}
 
     steps:
       - name: Checkout repository
